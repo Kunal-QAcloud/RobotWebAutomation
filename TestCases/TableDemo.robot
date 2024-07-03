@@ -3,7 +3,7 @@ Library    SeleniumLibrary
 
 *** Test Cases ***
 Table Validations
-    open browser    https://testautomationpractice.blogspot.com/    chrome      executable_path=/usr/bin/chromedriver
+    open browser    https://testautomationpractice.blogspot.com/    chrome
     maximize browser window
 
     ${rows}     get element count    xpath://table[@name='BookTable']/tbody/tr

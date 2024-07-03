@@ -7,7 +7,7 @@ ${url}  https://demowebshop.tricentis.com/register
 
 *** Test Cases ***
 Test_Registration
-    open browser    ${url}  ${browser}  executable_path=/usr/bin/chromedriver
+    open browser    ${url}  ${browser}
     maximize browser window
 
     ${timeout}  get selenium timeout

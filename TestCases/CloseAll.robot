@@ -8,10 +8,10 @@ ${url2}     https://demowebshop.tricentis.com/register
 
 *** Test Cases ***
 TesingBrowsers
-    open browser    ${url1}     ${browser}   executable_path=/usr/bin/chromedriver
+    open browser    ${url1}     ${browser}   
     maximize browser window
 
-    open browser    ${url2}     ${browser}  executable_path=/usr/bin/chromedriver
+    open browser    ${url2}     ${browser}  
     maximize browser window
 
 #    close browser #This command will close the latest browser or the second browser

@@ -7,7 +7,7 @@ ${url}     https://demo.automationtesting.in/Windows.html
 
 *** Test Cases ***
 Test_alerts
-    open browser    ${url}     ${browser}   executable_path=/usr/bin/chromedriver
+    open browser    ${url}     ${browser}
     maximize browser window
 
     click element    xpath://*[@id="Tabbed"]/a/button

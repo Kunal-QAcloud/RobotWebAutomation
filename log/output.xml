@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.10.12 on linux)" generated="2024-07-03T11:54:22.958734" rpa="false" schemaversion="5">
+<suite id="s1" name="CloseAll" source="/home/kunalbakshi/firstTestcase/Automation/TestCases/CloseAll.robot">
+<test id="s1-t1" name="TesingBrowsers" line="10">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-07-03T11:54:23.286983" level="INFO">Opening browser 'chrome' to base url 'https://demo.nopcommerce.com/register'.</msg>
+<arg>${url1}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-07-03T11:54:23.286368" elapsed="3.522992"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<msg time="2024-07-03T11:54:26.841585" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x55baf952fc7a &lt;unknown&gt;
+#1 0x55baf9212e2c &lt;unknown&gt;
+#2 0x55baf91e80d4 &lt;unknown&gt;
+#3 0x55baf928aa8d &lt;unknown&gt;
+#4 0x55baf92a0ca6 &lt;unknown&gt;
+#5 0x55baf9282363 &lt;unknown&gt;
+#6 0x55baf9252247 &lt;unknown&gt;
+#7 0x55baf9252b9e &lt;unknown&gt;
+#8 0x55baf94f624b &lt;unknown&gt;
+#9 0x55baf94fa2f1 &lt;unknown&gt;
+#10 0x55baf94e1afe &lt;unknown&gt;
+#11 0x55baf94fae52 &lt;unknown&gt;
+#12 0x55baf94c679f &lt;unknown&gt;
+#13 0x55baf951f638 &lt;unknown&gt;
+#14 0x55baf951f810 &lt;unknown&gt;
+#15 0x55baf952edac &lt;unknown&gt;
+#16 0x7f5a67712ac3 &lt;unknown&gt;
+</msg>
+<msg time="2024-07-03T11:54:26.842117" level="FAIL">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x55baf952fc7a &lt;unknown&gt;
+#1 0x55baf9212e2c &lt;unknown&gt;
+#2 0x55baf91e80d4 &lt;unknown&gt;
+#3 0x55baf928aa8d &lt;unknown&gt;
+#4 0x55baf92a0ca6 &lt;unknown&gt;
+#5 0x55baf9282363 &lt;unknown&gt;
+#6 0x55baf9252247 &lt;unknown&gt;
+#7 0x55baf9252b9e &lt;unknown&gt;
+#8 0x55baf94f624b &lt;unknown&gt;
+#9 0x55baf94fa2f1 &lt;unknown&gt;
+#10 0x55baf94e1afe &lt;unknown&gt;
+#11 0x55baf94fae52 &lt;unknown&gt;
+#12 0x55baf94c679f &lt;unknown&gt;
+#13 0x55baf951f638 &lt;unknown&gt;
+#14 0x55baf951f810 &lt;unknown&gt;
+#15 0x55baf952edac &lt;unknown&gt;
+#16 0x7f5a67712ac3 &lt;unknown&gt;
+</msg>
+<doc>Maximizes current browser window.</doc>
+<status status="FAIL" start="2024-07-03T11:54:26.810306" elapsed="0.166678">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x55baf952fc7a &lt;unknown&gt;
+#1 0x55baf9212e2c &lt;unknown&gt;
+#2 0x55baf91e80d4 &lt;unknown&gt;
+#3 0x55baf928aa8d &lt;unknown&gt;
+#4 0x55baf92a0ca6 &lt;unknown&gt;
+#5 0x55baf9282363 &lt;unknown&gt;
+#6 0x55baf9252247 &lt;unknown&gt;
+#7 0x55baf9252b9e &lt;unknown&gt;
+#8 0x55baf94f624b &lt;unknown&gt;
+#9 0x55baf94fa2f1 &lt;unknown&gt;
+#10 0x55baf94e1afe &lt;unknown&gt;
+#11 0x55baf94fae52 &lt;unknown&gt;
+#12 0x55baf94c679f &lt;unknown&gt;
+#13 0x55baf951f638 &lt;unknown&gt;
+#14 0x55baf951f810 &lt;unknown&gt;
+#15 0x55baf952edac &lt;unknown&gt;
+#16 0x7f5a67712ac3 &lt;unknown&gt;
+</status>
+</kw>
+<kw name="Open Browser" owner="SeleniumLibrary">
+<arg>${url2}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="NOT RUN" start="2024-07-03T11:54:26.977854" elapsed="0.000390"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" start="2024-07-03T11:54:26.978754" elapsed="0.000268"/>
+</kw>
+<kw name="Close All Browsers" owner="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="NOT RUN" start="2024-07-03T11:54:26.979674" elapsed="0.000541"/>
+</kw>
+<status status="FAIL" start="2024-07-03T11:54:23.284888" elapsed="3.696386">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x55baf952fc7a &lt;unknown&gt;
+#1 0x55baf9212e2c &lt;unknown&gt;
+#2 0x55baf91e80d4 &lt;unknown&gt;
+#3 0x55baf928aa8d &lt;unknown&gt;
+#4 0x55baf92a0ca6 &lt;unknown&gt;
+#5 0x55baf9282363 &lt;unknown&gt;
+#6 0x55baf9252247 &lt;unknown&gt;
+#7 0x55baf9252b9e &lt;unknown&gt;
+#8 0x55baf94f624b &lt;unknown&gt;
+#9 0x55baf94fa2f1 &lt;unknown&gt;
+#10 0x55baf94e1afe &lt;unknown&gt;
+#11 0x55baf94fae52 &lt;unknown&gt;
+#12 0x55baf94c679f &lt;unknown&gt;
+#13 0x55baf951f638 &lt;unknown&gt;
+#14 0x55baf951f810 &lt;unknown&gt;
+#15 0x55baf952edac &lt;unknown&gt;
+#16 0x7f5a67712ac3 &lt;unknown&gt;
+</status>
+</test>
+<status status="FAIL" start="2024-07-03T11:54:22.961085" elapsed="4.024196"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="CloseAll">CloseAll</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-07-03T11:54:26.841585" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x55baf952fc7a &lt;unknown&gt;
+#1 0x55baf9212e2c &lt;unknown&gt;
+#2 0x55baf91e80d4 &lt;unknown&gt;
+#3 0x55baf928aa8d &lt;unknown&gt;
+#4 0x55baf92a0ca6 &lt;unknown&gt;
+#5 0x55baf9282363 &lt;unknown&gt;
+#6 0x55baf9252247 &lt;unknown&gt;
+#7 0x55baf9252b9e &lt;unknown&gt;
+#8 0x55baf94f624b &lt;unknown&gt;
+#9 0x55baf94fa2f1 &lt;unknown&gt;
+#10 0x55baf94e1afe &lt;unknown&gt;
+#11 0x55baf94fae52 &lt;unknown&gt;
+#12 0x55baf94c679f &lt;unknown&gt;
+#13 0x55baf951f638 &lt;unknown&gt;
+#14 0x55baf951f810 &lt;unknown&gt;
+#15 0x55baf952edac &lt;unknown&gt;
+#16 0x7f5a67712ac3 &lt;unknown&gt;
+</msg>
+</errors>
+</robot>

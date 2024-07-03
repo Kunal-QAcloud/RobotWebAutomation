@@ -10,7 +10,7 @@ ${PASSWORD}      admin123
 
 *** Test Cases ***
 #LoginTest
-#    Open Browser    ${url}      chrome    executable_path=/usr/bin/chromedriver
+#    Open Browser    ${url}      chrome
 #    Sleep    15
 ##    Wait Until Page Contains Element    Xpath://input[@name='username']
 #    Click Element    xpath://input[@name='username']
@@ -20,7 +20,7 @@ ${PASSWORD}      admin123
 #    Should Contain    ${url}    dashboard
 #    Sleep    2
 LoginTest
-    Open Browser    ${url}    chrome    executable_path=/usr/bin/chromedriver
+    Open Browser    ${url}    chrome
     Wait Until Page Contains Element    xpath://input[@name='username']    timeout=10s
     Click Element    xpath://input[@name='username']
     Input Text    xpath://input[@name='username']    ${USERNAME}

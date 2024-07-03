@@ -3,7 +3,7 @@ Library    SeleniumLibrary
 *** Variables ***
 *** Test Cases ***
 LoginTest
-    open browser    https://worldometers.info/geography/flags-of-the-world/    chrome   executable_path=/usr/bin/chromedriver
+    open browser    https://worldometers.info/geography/flags-of-the-world/    chrome
     maximize browser window
 #    execute javascript    window.scrollTo(0,1500)
 

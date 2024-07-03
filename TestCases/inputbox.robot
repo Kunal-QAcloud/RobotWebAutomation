@@ -8,7 +8,7 @@ ${url}  https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
 
 *** Test Cases ***
 TestingInputBox
-    Open Browser    ${url}      ${browser}      executable_path=/usr/bin/chromedriver
+    Open Browser    ${url}      ${browser}      
     Maximize Browser Window
     Sleep    5
     Title Should Be    OrangeHRM

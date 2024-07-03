@@ -3,7 +3,7 @@ Library    SeleniumLibrary
 
 *** Test Cases ***
 LoginTest
-    open browser    https://demo.nopcommerce.com/login?returnUrl=%2F    chrome      executable_path=/usr/bin/chromedriver
+    open browser    https://demo.nopcommerce.com/login?returnUrl=%2F    chrome
     maximize browser window
 
     ${link_count}    get element count    xpath://a

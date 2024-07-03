@@ -7,7 +7,7 @@ ${url}      https://javadoc.io/static/org.seleniumhq.selenium/selenium-api/2.50.
 
 *** Test Cases ***
 Test_alerts
-    open browser    ${url}     ${browser}   executable_path=/usr/bin/chromedriver
+    open browser    ${url}     ${browser}
     maximize browser window
 
     select frame    packageListFrame   #id name xpath
