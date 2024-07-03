@@ -7,7 +7,7 @@ ${url}  https://www.techlistic.com/p/selenium-practice-form.html
 
 *** Test Cases ***
 Handling Dropdowns and Lists
-    open browser    ${url}  ${browser}  executable_path=/usr/bin/chromedriver
+    open browser    ${url}  ${browser}
     maximize browser window
     set selenium speed    2seconds
 

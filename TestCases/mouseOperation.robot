@@ -3,7 +3,7 @@ Library    SeleniumLibrary
 *** Variables ***
 *** Test Cases ***
 LoginTest
-    open browser    https://swisnl.github.io/jQuery-contextMenu/demo.html    chrome     executable_path=/usr/bin/chromedriver
+    open browser    https://swisnl.github.io/jQuery-contextMenu/demo.html    chrome
     maximize browser window
     open context menu    xpath:/html/body/div/section/div/div/div/p/span
     sleep    5

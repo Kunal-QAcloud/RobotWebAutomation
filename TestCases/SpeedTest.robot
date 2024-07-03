@@ -13,7 +13,7 @@ Test_Registration
     #Every statements in your scripts will execute with 1 second of speed (1 seconds of delay time)
     set selenium speed    1 seconds
 
-    open browser    ${url}  ${browser}  executable_path=/usr/bin/chromedriver
+    open browser    ${url}  ${browser}
     maximize browser window
     select radio button    Gender   M
     input text    id:FirstName  Raghav
