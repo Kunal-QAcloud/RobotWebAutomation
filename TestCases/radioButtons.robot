@@ -7,7 +7,7 @@ ${url}  https://www.techlistic.com/p/selenium-practice-form.html
 
 *** Test Cases ***
 Test_Visiblity_enability_title
-    open browser    ${url}  ${browser}  executable_path=/usr/bin/chromedriver
+    open browser    ${url}  ${browser}
     maximize browser window
     #setting selenium speed for every statement
     set selenium speed    2seconds
